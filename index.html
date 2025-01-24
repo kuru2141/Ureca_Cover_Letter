@@ -1,196 +1,106 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cover-letter</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="cover.css">    
+</head>
+<body>
+    <main id = 'normal'>
+        <button onclick="moveToTop()" class="btn-moveTop">
+            <i class="fa-solid fa-arrow-up" style="font-size: 1.2em; color: #777"></i>
+        </button>
+        <header id = 'header'>
+            <nav id = 'topMenu'>
+                <i class="fa-solid fa-person" onclick = "moveToEle('info')"></i>
+                <i class="fa-solid fa-heart" onclick = "moveToEle('exp')"></i>
+                <i class="fa-solid fa-book-open" onclick = "moveToEle('plan')"></i>
+                <i class="fa-solid fa-photo-film" onclick = "moveToEle('picture')"></i>
+            </nav>
+        </header>
 
-@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Do+Hyeon&family=Jua&display=swap');
-* {
-    margin: 0;
-    font-family: "Jua", serif;
-}
-a {
-    text-decoration: none;
-}
-h1 {
-    font-size: 2em;
-}
-#normal {
-    text-align: center;
-    width: auto;
-    height: auto;
-    border: 1px solid #ccc;
-    overflow: hidden;
-}
+        <section class = 'sec1'>
+            <div id = 'info'>
+                <h1 id = 'info-h1'>INFO</h1>
+                <div id = 'info-b'>
+                    <div class = 'img' id = 'img1'></div>
+                    <div>   
+                        <ul>
+                            <li>이름 : 진영호</li>
+                            <li>나이 : 27 (99년생)</li>
+                            <li>전공 : 수학과 (컴퓨터공학부 복수전공)</li>
+                            <li>MBTI : ISTP</li>
+                            <li>취미 : PS5 게임하기 / 던파 / 여행</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-.btn-moveTop {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    height: 50px;
-    width: 50px;
-    border: 1px solid #ccc;
-    border-radius: 10px;
-}
+        <section class = 'sec2'>
+            <div id = 'exp'>
+                <h1>제일 좋았던 경험</h1>
+                <div class = 'box'>
+                    <div id = 'img2'></div>
+                    <div>
+                        <h2>일본 교환학생</h2>
+                        <p>
+                            일본에서 교환학생 하면서 한 주에 한 번씩은
+                            <br>꼭 여행 가고자 했습니다 !
+                            <br>덕분에 재밌는 곳도 많이 다니고 6개월 뿐이었지만
+                            <br>많은 추억을 쌓고 온 것 같아요 😄
+                        </p>
+                    </div>
+                </div>
+                <div class = 'box'>
+                    <div id = 'img3'></div>
+                    <div>
+                        <h2>근 6개월 간의 준비</h2>
+                        <p>
+                            그저 졸업증 하나 있었는데 6개월동안 공부하면서
+                            <br>꾸준히 다양한 자격증을 취득할 수 있었습니다
+                            <br>게다가 유레카까지 합격할 수 있었어서 정말 기뻐요 😆
+                            <br>여러분들과 함께 취업할 수 있도록 열심히 하겠습니다 !
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-#header {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    width: 100%;
-    background-color: white;
-    border-bottom: 1px solid #ccc;
-    padding: 30px;
-}
-i:hover{
-    color: rgb(255, 0, 0);
-}
-.sec1 {
-    background-color: rgb(214, 243, 255);
-    border-bottom: 1px solid #eee;
-}
-.sec2 {
-    background-color: white;
-    border-bottom: 1px solid #eee;
-}
-#topMenu {
-    font-size: 1.5em;
-    display: flex;
-    justify-content: space-around;
-}
+        <section class = 'sec1'>
+            <div id = 'plan'>
+                <h1>앞으로의 계획</h1>
+                <ol>
+                    <li>HTML / CSS / JavaScript 익숙해지기</li>
+                    <li>JAVA 학습하며 알고리즘 공부하기</li>
+                    <li>팀원분들과 다양한 프로젝트 해보기</li>
+                    <li>올해 하반기에 취업할 수 있도록 실력 다지기</li>
+                </ol>
+            </div>
+        </section>
 
+        <section class = 'sec2'>
+            <h1>PHOTO</h1>
+            <div id = 'picture'>
+                <div class = 'img' id = 'img4-1'></div>
+                <div class = 'img' id = 'img4-2'></div>
+                <div class = 'img' id = 'img4-5'></div>
+                <div class = 'img' id = 'img4-3'></div>
+                <div class = 'img' id = 'img4-4'></div>
+            </div>
+        </section>
+    </main>
 
-.img {
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-}
-#img1 {
-    background: url(images/aomori.jpg) no-repeat;
-    background-size: cover;
-    margin-right: 50px;
-}
-#img2 {
-    width: 300px;
-    height: 200px;
-    background: url(images/school.jpg) no-repeat;
-    background-size: cover;
-    border-radius: 20px;
-}
-#img3 {
-    width: 300px;
-    height: 200px;
-    background: url(images/book.jpg) no-repeat;
-    background-size: cover;
-    border-radius: 20px;
-}
-#img4-1 {
-    background: url(images/kyoto.jpg) no-repeat;
-    background-size: cover;
-}
-#img4-2 {
-    background: url(images/river.jpg) no-repeat;
-    background-size: cover;
-}
-#img4-3 {
-    background: url(images/yokohama.jpg) no-repeat;
-    background-size: cover;
-}
-#img4-4 {
-    background: url(images/castle.jpg) no-repeat;
-    background-size: cover;
-}
-#img4-5 {
-    background: url(images/cas2.jpg) no-repeat;
-    background-size: cover;
-}
-
-
-#info {
-    padding: 30px;
-}
-#info h1 {
-    margin-top: 80px;
-}
-#info-b {
-    display: flex;
-    justify-content: center;
-    align-items: center;    
-}
-#info ul {
-    list-style: none;
-    font-display: none;
-    text-align: left;
-    line-height: 1.8;
-}
-#info li {
-    font-size: 1.4em;
-}
-#info h1 {
-    margin-bottom: 20px;
-}
-
-#exp {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.box {
-    width: 800px;
-    padding: 30px;
-    margin: 30px auto;
-    gap: 50px;
-    background-color: rgb(214, 243, 255);
-    display: flex;
-    justify-content: left;
-    align-items: center;
-    border-radius: 20px;
-}
-.box h2 {
-    font-size: 1.6em;
-    font-weight: 600;
-    margin-bottom: 10px;
-    text-align: left;
-}
-.box p {
-    text-align: left;
-    font-size: 1.3em;
-    line-height: 1.8;
-}
-
-#plan {
-    padding: 30px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-#plan ol {
-    margin-top: 50px;
-    text-align: left;
-    line-height: 2;
-    font-size: 1.4em;
-}
-.sec2 h1 {
-    margin-top: 30px;
-}
-
-#picture {
-    margin: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 30px;
-    flex-wrap: wrap;
-}
-
-@media screen and (max-width: 768px) {
-    #info-b {
-        flex-direction: column;        
-    }
-    #img1 {
-        margin-right: 0px;
-        margin-bottom: 20px;
-    }
-    .box {
-        width: 100%;
-        flex-direction: column;
-        border-radius: 0;
-    }
-}
+    <script>
+        let moveToTop = function () {
+            document.body.scrollIntoView({ behavior: "smooth" });
+        };
+        let moveToEle = function(x) {
+            const element = document.getElementById(x);
+            element.scrollIntoView({ behavior: 'smooth' })
+        }
+    </script>
+</body>
+</html>
