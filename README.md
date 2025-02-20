@@ -2,4 +2,5 @@
 
 https://kuru2141.github.io/Ureka_Cover_Letter/
 
-![Uploading 1. 2024졸업작품집(유니InU)(최종본).jpg…]()
+
+![UniINU](https://github.com/user-attachments/assets/951d78d3-566e-45c4-b6a0-0c3c77dd7509)
