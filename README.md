@@ -1,12 +1,12 @@
-# Ureka\_Cover\_Letter
+# Ureca\_Cover\_Letter
 
-[👉 자기소개 웹사이트 바로가기](https://kuru2141.github.io/Ureka_Cover_Letter/)
+[👉 자기소개 웹사이트 바로가기](https://kuru2141.github.io/Ureca_Cover_Letter/)
 
 ---
 
 ## 📄 프로젝트 개요
 
-**Ureka\_Cover\_Letter**는 유레카 프로그램에서의 자기소개를 위해 제작된 웹사이트입니다. HTML, CSS, JavaScript를 활용하여 직관적인 사용자 인터페이스와 부드러운 스크롤 기능을 구현했습니다. 사용자 친화적인 내비게이션과 사진 갤러리를 통해 방문자가 내용을 쉽게 파악할 수 있도록 제작되었습니다.\
+**Ureca\_Cover\_Letter**는 유레카 프로그램에서의 자기소개를 위해 제작된 웹사이트입니다. HTML, CSS, JavaScript를 활용하여 직관적인 사용자 인터페이스와 부드러운 스크롤 기능을 구현했습니다. 사용자 친화적인 내비게이션과 사진 갤러리를 통해 방문자가 내용을 쉽게 파악할 수 있도록 제작되었습니다.\
 📅 **발표일:** 2025년 2월 3일
 
 ---
@@ -35,7 +35,7 @@
 ## 📂 폴더 구조
 
 ```
-Ureka_Cover_Letter/
+Ureca_Cover_Letter/
 ├── index.html      # 메인 웹페이지 파일
 ├── cover.css       # 스타일 시트
 └── README.md       # 프로젝트 설명서 (현재 파일)
@@ -48,7 +48,7 @@ Ureka_Cover_Letter/
 1. 저장소 클론
 
 ```bash
-git clone https://github.com/kuru2141/Ureka_Cover_Letter.git
+git clone https://github.com/kuru2141/Ureca_Cover_Letter.git
 ```
 
 2. 프로젝트 폴더로 이동 후 `index.html` 파일을 브라우저에서 실행
